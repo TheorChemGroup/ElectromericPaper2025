@@ -30,9 +30,10 @@ class GoodVibesManager:
             if match is None:
                 print("Could not find version info in goodvibes output.")
 
-            if match.group(1) == line:
+            elif match.group(1) == line:
                 print("✓ Versions match.")
                 return True
+            
             else:
                 print("✗ Versions do not match. Make sure to install Goodvibes2 from https://github.com/TheorChemGroup/GoodVibes2.git\n")
                 return False
