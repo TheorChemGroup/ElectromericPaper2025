@@ -26,6 +26,9 @@ class GoodVibesManager:
             
             output = result.stdout
             match = re.search(r'--version\s+([^\s]+)', output)
+            
+            if match is None:
+                print("Could not find version info in goodvibes output.")
 
             if match.group(1) == line:
                 print("✓ Versions match.")
