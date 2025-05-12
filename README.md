@@ -34,13 +34,13 @@ For detailed installation instructions, please refer to the official GoodVibes2 
 After running `reproduce.py`, the following files will be generated in the working directory:
 
 - `Fig_*.csv`: Data files corresponding to figures presented in the manuscript. 
--`Fig_S21.csv`: Structural parameters (substituent, charge, multiplicity, number of imaginary frequencies) 
+- `Fig_S21.csv`: Structural parameters (substituent, charge, multiplicity, number of imaginary frequencies) 
 and energies of HOMO, LUMO, LUMO+1 orbitals. HOMO-LUMO Gap column is included for convenience.
--`Hammett_data_summary.csv`: File with structure parameters (substituent, charge, multiplicity, number of imaginary frequencies) 
+- `Hammett_data_summary.csv`: File with structure parameters (substituent, charge, multiplicity, number of imaginary frequencies) 
 and electronic energies. qhG energies are present in the last column and used for Hammett Constants calculation.
--`Structural_summary_data.csv`: Structural parameters, electronic and qhG energies.
+- `Structural_summary_data.csv`: Structural parameters, electronic and qhG energies.
 Relative qhG energies are present in the last column and used for energy profiles analysis.
--`SI_structures_trj.xyz`: XYZ coordinates of all located stationary points.
+- `SI_structures_trj.xyz`: XYZ coordinates of all located stationary points
 
 ## Computational Details
 
