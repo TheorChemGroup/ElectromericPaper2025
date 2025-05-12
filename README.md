@@ -12,7 +12,7 @@ For detailed installation instructions, please refer to the official GoodVibes2 
 - `data/`: Subfolder containing prepared raw CSV data files and XYZ file with located stationary points.
 -`Energy_profiles/`: Subfolder containing ORCA 5.0.4 `.log` files of 3', TS1, IM, TS2, 4' states calculations.
 - `E_HU/`: Subfolder containing ORCA 5.0.4 `.log` files of simplified_IM structure calculations with orbital data printed for molecular orbital visualization.
-- `Hammett_constants`: Subfolder containing ORCA 5.0.4 `.log` files necessary for Hammett constants calculation.
+- `Hammett_constants/`: Subfolder containing ORCA 5.0.4 `.log` files necessary for Hammett constants calculation.
 
 ## Usage
 
