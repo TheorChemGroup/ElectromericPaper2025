@@ -11,7 +11,7 @@ For detailed installation instructions, please refer to the official GoodVibes2 
 - `reproduce.py`: Main Python script to process data and generate plots.
 - `data/`: Subfolder containing prepared raw CSV data files and XYZ file with located stationary points.
 -`Energy_profiles/`: Subfolder containing ORCA 5.0.4 `.log` files of 3', TS1, IM, TS2, 4' states calculations.
-- `E_HU/`: Subfolder containing ORCA 5.0.4 `.log` files of simplified_IM structure calculations with orbital data printed for molecular orbital visualization.
+- `E_HU/`: Subfolder containing ORCA 5.0.4 `.log` files of simplified_IM structure calculations with orbital data printed for            molecular orbital visualization.
 - `Hammett_constants/`: Subfolder containing ORCA 5.0.4 `.log` files necessary for Hammett constants calculation.
 
 ## Usage
@@ -35,11 +35,11 @@ After running `reproduce.py`, the following files will be generated in the worki
 
 - `Fig_*.csv`: Data files corresponding to figures presented in the manuscript. 
 - `Fig_S21.csv`: Structural parameters (substituent, charge, multiplicity, number of imaginary frequencies) 
-and energies of HOMO, LUMO, LUMO+1 orbitals. HOMO-LUMO Gap column is included for convenience.
-- `Hammett_data_summary.csv`: File with structure parameters (substituent, charge, multiplicity, number of imaginary frequencies) 
-and electronic energies. qhG energies are present in the last column and used for Hammett Constants calculation.
+  and energies of HOMO, LUMO, LUMO+1 orbitals. HOMO-LUMO Gap column is included for convenience.
+- `Hammett_data_summary.csv`: Structural parameters and electronic energies.
+  qhG energies are present in the last column and used for Hammett Constants calculation.
 - `Structural_summary_data.csv`: Structural parameters, electronic and qhG energies.
-Relative qhG energies are present in the last column and used for energy profiles analysis.
+  Relative qhG energies are present in the last column and used for energy profiles analysis.
 - `SI_structures_trj.xyz`: XYZ coordinates of all located stationary points
 
 ## Computational Details
