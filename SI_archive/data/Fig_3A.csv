@@ -1,0 +1,16 @@
+Substituent,Group,G_IM (kcal/mol),G_TS2 (kcal/mol)
+4-NO2Ph,high (pi-conj),-4.18,16.58
+4-OMePh,high (pi-conj),0.87,19.95
+CCH,high (pi-conj),-7.86,16.38
+CF3,low (non-pi-conj),-9.21,14.46
+CHCH2,high (pi-conj),-3.53,15.92
+CHCHCO2Me,high (pi-conj),-11.33,11.65
+CHCHNMe2,high (pi-conj),1.44,16.98
+CN,high (pi-conj),-13.36,15.15
+CO2Me,high (pi-conj),-4.32,17.64
+F,low (non-pi-conj),6.85,29.56
+H,low (non-pi-conj),5.12,28.89
+Me,low (non-pi-conj),4.39,24.14
+N3,high (pi-conj),-0.46,21.43
+NMe2,low (non-pi-conj),6.97,24.60
+NO2,high (pi-conj),-11.50,14.71
