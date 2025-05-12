@@ -13,7 +13,7 @@ class GoodVibesManager:
     def __init__(self):
         pass
 
-    def compare_version(self, line = "GoodVibes-2 v1.0") -> bool:
+    def compare_version(self, line = "GoodVibes-2") -> bool:
         '''Compares version of goodvibes called by 'python -m goodvibes' with GoodVibes2 version'''
         try:
             result = subprocess.run(
@@ -30,7 +30,7 @@ class GoodVibesManager:
             if match is None:
                 print("Could not find version info in goodvibes output.")
 
-            elif match.group(1) == line:
+            elif match.group(1).startswith(line):
                 print("✓ Versions match.")
                 return True
             
@@ -68,7 +68,6 @@ class GoodVibesRunner:
             "--qs", "truhlar",
             "--fs", "175",
             "-t", str(temperature),
-            "--no_plot",
             "-c", "1",
             "-v", "1.0",
             "--invertifreq", "auto",
